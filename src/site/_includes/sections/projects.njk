@@ -2,12 +2,13 @@
 
   <a id="projects" class="anchor" href="#projects"><h2>Projects</h2></a>
 
-    {%- if projects.featured == "checked" %}
+{% for project in projects %}
+    {%- if project.featured == "checked" %}
 	<p>{{ projects.name }}</p>
 	<p>{{ projects.role }}</p>
 	<p>{{ projects.date }}</p>
 	<p>{{ projects.introduction }}</p>
 	<p>{{ projects.details }}</p>
 	{% endif %}
-
+{% endfor %}
 </section>
