@@ -59,7 +59,7 @@ Launch : june 2018
 
 Community : +50 female bikers (january 2019)
 
-### [Lesbians Who Tech](https://www.facebook.com/LWhoTechParis/)
+### [Lesbians Who Tech - Paris](https://www.facebook.com/LWhoTechParis/)
 Status : active
 
 Launch : octobrer 2015
