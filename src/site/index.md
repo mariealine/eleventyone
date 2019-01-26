@@ -20,13 +20,13 @@ What I aldready did in th last 18 months and what I am proud of :
 - Establishment of collaboration and processes with Product Managers based on user behavior, data, etc.
 - Creating the Design System from a Sketch Design Library to shared documentation with front-end developers
 
-### # [Design Systems France](https://designsystems.fr/)
+### [Design Systems France](https://designsystems.fr/)
 
 Creator and Organizer, since July 2018
 
 I created Design Systems France to meet my needs to get inspired by my peers and learn from their experience.
 
-### # Previously
+### Previously
 I worked at [Oscaro](https://www.oscaro.com/), [Fluksaqua](https://www.fluksaqua.com/fr/), [Dagobert](https://www.dagobert.com/), [Azendoo](https://www.azendoo.com/fr).
 [My Linkedin profile](https://fr.linkedin.com/in/mariealine) is pretty well filled to detail this experiences. I let you take a look on it.
 
@@ -34,7 +34,7 @@ I worked at [Oscaro](https://www.oscaro.com/), [Fluksaqua](https://www.fluksaqua
 During my path, I had the chance to met awesome people who shared them knowledge to me and also show me intersting topics to improved myself.
 Now, it's natural for me to share knowledge to help other.
 
-|Speech|Event|Date|
+|Speeches|Event|Date|
 |---|---|---|---|
 |["Be a designer"](https://medium.com/join-lion/lion-lance-une-formation-pour-devenir-product-owner-b00b71ba5ab5)|Product Track - [Lion](https://joinlion.co/) x [Meraki](https://www.linkedin.com/in/barbaravogel23/)|January 2019|
 |[Design Systems London - Feedbacks](https://www.youtube.com/watch?v=0gTpSXvdhfw)|[Design Systems France](http://designsystems.fr)|December 2019|
