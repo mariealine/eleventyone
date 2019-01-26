@@ -34,7 +34,7 @@ I worked at [Oscaro](https://www.oscaro.com/), [Fluksaqua](https://www.fluksaqua
 During my path, I had the chance to met awesome people who shared them knowledge to me and also show me intersting topics to improved myself.
 Now, it's natural for me to share knowledge to help other.
 
-|Subjects|Event|Date|
+|Speech|Event|Date|
 |---|---|---|---|
 |["Be a designer"](https://medium.com/join-lion/lion-lance-une-formation-pour-devenir-product-owner-b00b71ba5ab5)|Product Track - [Lion](https://joinlion.co/) x [Meraki](https://www.linkedin.com/in/barbaravogel23/)|January 2019|
 |[Design Systems London - Feedbacks](https://www.youtube.com/watch?v=0gTpSXvdhfw)|[Design Systems France](http://designsystems.fr)|December 2019|
