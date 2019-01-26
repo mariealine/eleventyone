@@ -1,22 +1,67 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" data-vue-meta="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="/css/main.css" />
+    
     <title>{{ title }}</title>
+    <meta name="description" content="Marie-Aline Millot | Product Designer & Design System | Design, Mortorbike & Communities.">
+
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-chrome-192x192.png"> -->
+    <!-- <link rel="icon" type="image/png" sizes="512x512" href="/images/favicons/android-chrome-512x512.png"> -->
+    <!-- <link rel="shortcut icon" href="/images/favicons/favicon.ico"> -->
+
+    <meta name="theme-color" content="#ffffff">
+
+    <meta property="og:title" content="Marie-Aline Millot">
+    <meta property="og:site_name" content="Marie-Aline Millot">
+    <meta property="og:url" content="http://mariealine.design">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Marie-Aline Millot | Product Designer & Design System | Design, Mortorbike & Communities.">
+    <meta property="og:image" content="https://mariealine.design/images/xxx.jpg">
+    <meta property="og:image:secure_url" content="https://mariealine.design/images/xxx.jpg">
+
+    <meta name="twitter:creator" content="@mariealine_">
+    <meta name="twitter:site" content="@mariealine_">
+    <meta name="twitter:title" content="Marie-Aline Millot">
+    <meta name="twitter:description'" content="Marie-Aline Millot | Product Designer & Design System | Design, Mortorbike & Communities.">
+    <meta name="twitter:image" content="https://mariealine.design/images/xxx.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image:alt" content="Marie-Aline Millot">
+    
+    <meta itemprop="name" content="Marie-Aline Millot">
+    <meta itemprop="jobTitle" content="Product Designer">
+    <meta itemprop="url" href="http://mariealine.design/">
+    <meta itemprop="image" content="https://mariealine.design/images/xxx.jpg">
+      
+    <meta itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="Weekendesk">
+    <meta itemprop="sameAs" href="https://twitter.com/mariealine_">
+    <meta itemprop="sameAs" href="https://fr.linkedin.com/in/mariealine">
+    <meta itemprop="sameAs" href="https://designsystems.fr">
+
+    <meta name="apple-mobile-web-app-title" content="Marie-Aline Millot">
+    <meta name="application-name" content="Marie-Aline Millot">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133299862-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-133299862-1');
+    </script>
+    <meta name="google-site-verification" content="I4IyDsYIx8c9_MeNpWS79OAsmQ0mPygM3IJPRo--Gig" />
+
   </head>
   <body class="{{ bodyClass }}" >
     <div class="container">
       <header>
-        <ul class="nav">
-          <li>
-            <a href="/">home<small>where the heart is</small></a>
-          </li>
-          <li>
-            <a href="/about">about<small>all about this</small></a>
-          </li>
-        </ul>
         <h1>{{ title }}</h1>
         {%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
       </header>
