@@ -8,16 +8,16 @@
 
 
 ::-moz-selection {
-  background-color: $accent-color;
-  color: $page-color;
+  background-color: $page-color;
+  color: $text-color;
 }
 ::selection {
-  background-color: $accent-color;
-  color: $page-color;
+  background-color: $page-color;
+  color: $text-color;
 }
 
 html {
-  background-color: $accent-color;
+  background-color: $page-color;
 }
 
 body {
