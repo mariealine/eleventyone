@@ -1,0 +1,31 @@
+<section>
+  <a id="talks" class="anchor"><h2>Talks</h2></a>
+
+<p>I met awesome people in conferences who shared their knowledge and made me
+discover intersting topics that help to improve myself. Now, it feels natural
+to share my knowledge to help others.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Talk</th>
+        <th>Event</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for talk in talks %}
+        <tr>
+          <td>
+            <a href="{{ talk.url }}">{{ talk.name }}</a>
+          </td>
+          <td>
+            <a href="{{ talk.eventURL }}">{{ talk.event }}</a>
+          </td>
+          <td><small>{{ talk.date | dateDisplay }}</small></td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+</section>

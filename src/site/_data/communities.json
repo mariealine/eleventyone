@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Design Systems France",
+    "url": "https://designsystems.fr/",
+    "since": "February 2018",
+    "status": "Active",
+    "size": 300,
+    "members": "people",
+    "role": "Creator,Organizer,Curator"
+  },
+  {
+    "name": "Jeanne Machines & Friends",
+    "url": "https://www.facebook.com/groups/675827186111545/",
+    "since": "June 2018",
+    "status": "Active",
+    "size": 70,
+    "members": "bikers",
+    "role": "Co-creator,Organizer"
+  },
+  {
+    "name": "Lesbians Who Tech | Paris",
+    "url": "https://www.facebook.com/LWhoTechParis/",
+    "since": "October 2015",
+    "status": "Active",
+    "size": 270,
+    "members": "queers",
+    "role": "Organizer,Curator"
+  },
+  {
+    "name": "Design & Beers Talks",
+    "url": "http://dbtalks.org/",
+    "since": "April 2015",
+    "status": "Closed",
+    "size": "",
+    "role": "Organizer,Curator"
+  }
+]

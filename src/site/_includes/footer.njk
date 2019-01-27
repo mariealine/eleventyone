@@ -1,0 +1,14 @@
+<footer>
+<p>
+   {{ site.title }} - {{ site.description }}
+</p>
+<p>
+  {%- for profile in social -%}<a href="{{ profile.url }}">{{ profile.label }}</a>
+  {% if not loop.last %} · {% endif %}{% endfor %}
+</p>
+
+
+<p>
+  Siret Number : {{ site.siret }} · Available for freelance missions.
+</p>
+</footer>
