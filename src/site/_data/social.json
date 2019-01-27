@@ -1,21 +1,30 @@
-[
-  {
+{  
+  "twitter":{
     "label": "Twitter",
     "url": "https://twitter.com/mariealine_"
-  }, {
+  },
+  "linkedin":{
     "label": "Linkedin",
     "url": "https://fr.linkedin.com/in/mariealine"
-  }, {
+  },
+  "malt":{
     "label": "Malt",
     "url": "https://www.malt.fr/profile/mariealinemillot"
-  }, {
+  },
+  "behance":{
     "label": "Behance",
     "url": "https://www.behance.net/mariealine"
-  }, {
+  },
+  "speakerdeck": {
     "label": "Speakerdeck",
     "url": "https://speakerdeck.com/mariealine"
-  }, {
+  },
+  "github":{
     "label": "Github",
     "url": "https://github.com/mariealine"
+  },
+  "dsf":{
+    "label": "Design Systems France",
+    "url": "https://designsystemsfrance.fr/"
   }
-]
+}
