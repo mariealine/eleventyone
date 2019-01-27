@@ -1,14 +1,16 @@
 {
-  "title": "Marie Aline Millot",
-  "short_title": "MAB",
-  "description": "Product Design & Mortorbike",
+  "title": "Marie-Aline Millot - Product Design and Design Systems",
+  "description": "👋 I'm a Product Designer, a biker and a Handyman. I build product, design systems and communities.",
   "url": "https://mariealine.design",
   "domain": "mariealine.design",
   "siret": "81821910700013",
   "author": {
-    "name": "Marie Aline Millot",
+    "name": "Marie-Aline Millot",
     "url": "https://mariealine.design",
-    "email": "",
-    "avatar": "https://gravatar.com/avatar/"
+    "email": "mariealinemillot@gmail.com",
+    "jobTitle": "Product Designer",
+    "jobCompany": "Weekendesk",
+    "twitter_account": "@mariealine_",
+    "twitter_url": "https://twitter.com/mariealine_"
   }
 }

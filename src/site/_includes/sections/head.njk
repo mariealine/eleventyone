@@ -1,0 +1,60 @@
+<meta charset="utf-8" data-vue-meta="true">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="/css/main.css" />
+<meta name="robots" content="index, follow">
+
+<!-- Primary Meta Tags -->
+<title>{{ site.title }}</title>
+<meta name="title" content="{{ site.title }}">
+<meta name="description" content="{{ site.description }}">
+
+<meta name="theme-color" content="#ffffff">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-title" content="{{ site.author.name }}">
+<meta name="application-name" content="{{ site.author.name }}">
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="192x192" href="/images/favicons/android-chrome-192x192.png"> -->
+<!-- <link rel="icon" type="image/png" sizes="512x512" href="/images/favicons/android-chrome-512x512.png"> -->
+<!-- <link rel="shortcut icon" href="/images/favicons/favicon.ico"> -->
+
+<!-- Open Graph / Facebook -->
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{site.description}}">
+<meta property="og:url" content="{{ site.author.url }}">
+<meta property="og:site_name" content="{{ site.author.name }}">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ site.author.url }}/images/xxx.jpg">
+<meta property="og:image:secure_url" content="{{ site.author.url }}/images/xxx.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:title" content="{{ site.title }}">
+<meta property="twitter:description'" content="{{ site.description }}">
+<meta property="twitter:url'" content="{{ site.author.twitter_url }}">
+<meta property="twitter:site" content="{{ site.author.twitter_account }}">
+<meta property="twitter:creator" content="{{ site.author.twitter_account }}">
+<meta property="twitter:image" content="{{ site.author.url }}/images/xxx.jpg">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image:alt" content="{{ site.title }}">
+
+<meta itemprop="name" content="{{ site.author.name }}">
+<meta itemprop="jobTitle" content="{{ site.author.jobTitle }}">
+<meta itemprop="url" href="{{ site.author.url }}">
+<meta itemprop="image" content="{{ site.author.url }}images/xxx.jpg">
+
+<meta itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+<meta itemprop="name" content="{{ site.author.jobCompany }}">
+
+{% for item in social %}
+  <meta itemprop="sameAs" href="{{ item.url }}">
+{% endfor %}
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-133299862-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-133299862-1');
+</script>
+<meta name="google-site-verification" content="I4IyDsYIx8c9_MeNpWS79OAsmQ0mPygM3IJPRo--Gig" />
