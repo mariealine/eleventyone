@@ -1,34 +1,31 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
   {% include "sections/head.njk" %}
-  </head>
-  <body class="{{ bodyClass }}" >
-    <div class="container">
-      <header>
-        <ul class="nav">
-          <li>
-            <a href="#projects">projects<small>what I currently do</small></a>
-          </li>
-          <li>
-            <a href="#talks">talks<small>what I share</small></a>
-          </li>
-          <li>
-            <a href="#talks">talks<small>what I share</small></a>
-          </li>
-          <li>
-            <a href="#communities">communities<small>what I'm involved</small></a>
-          </li>
-        </ul>
-        <h1>{{ title }}</h1>
-        {%- if subtitle %}<p class="subtitle">{{ subtitle }}</p>{% endif %}
-      </header>
-      {{ content | safe }}
-      {% include "sections/projects.njk" %}
-      {% include "sections/talks.njk" %}
-      {% include "sections/communities.njk" %}
-      {% include "sections/motorbike.njk" %}
-      {% include "footer.njk" %}
-    </div>
-  </body>
+</head>
+<body class="{{ bodyClass }}" >
+  <div class="container">
+    <header>
+      <ul class="nav">
+        <li>
+          <a href="#projects">projects<small>what I currently do</small></a>
+        </li>
+        <li>
+          <a href="#talks">talks<small>what I share</small></a>
+        </li>
+        <li>
+          <a href="#communities">communities<small>what I'm involved</small></a>
+        </li>
+      </ul>
+      <h1>{{ title }}</h1>
+      {%- if subtitle %}<p class="subtitle">{{ site.description }}</p>{% endif %}
+    </header>
+    {{ content | safe }}
+    {% include "sections/projects.njk" %}
+    {% include "sections/talks.njk" %}
+    {% include "sections/communities.njk" %}
+    {% include "sections/motorbike.njk" %}
+    {% include "footer.njk" %}
+  </div>
+</body>
 </html>
