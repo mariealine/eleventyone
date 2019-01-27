@@ -1,5 +1,5 @@
 ---
 title: Marie-Aline Millot
-subtitle: 👋 I'm a Product Designer, a Biker & a Handyman.
+subtitle: {{site.description}}
 layout: layouts/base.njk
 ---

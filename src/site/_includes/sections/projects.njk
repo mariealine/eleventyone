@@ -3,28 +3,33 @@
 
   <ul>
     {% for project in projects %}
-      {% if project.featured %}
-        <li>
-          <h3>
-            {% if project.url %}
-              <a href="{{ project.url }}">{{ project.name }}</a>
-              {% else %}
-              {{ project.name }}
-            {% endif %}
-          </h3>
-          <h4>{{ project.role }}</h4>
-          <p>{{ project.introduction }}</p>
-        </li>
-      {% endif %}
+    {% if project.featured %}
+    <li>
+      <h3>
+        {% if project.url %}
+        <a href="{{ project.url }}">{{ project.name }}</a>
+        {% else %}
+        {{ project.name }}
+        {% endif %}
+      </h3>
+      <h4>{{ project.role }}</h4>
+      <p>{{ project.introduction }}</p>
+    </li>
+    {% endif %}
+
     {% endfor %}
-  </ul>
 
-  <h3>Yours?</h3>
-  <p>I'm available to share my skills and experiences to help companies to launch,  build and maintain their Design Systems.
-  <br>Feel free to contact me: <a href="mailto:{{site.author.email}}">mariealinemillot[at]gmail.com</a></p>
+    <li>
+      <h3>Yours?</h3>
+      <h4>Product Designer | Design Systems</h4>
+      <p>I'm available to share my skills and experiences to help companies to launch, build and maintain their Design Systems - improve their product - set up a good product design workflow .<br>
+        Feel free to contact me: <a href="mailto:{{site.author.email}}">mariealinemillot[at]gmail.com</a></p>
 
-  <h3>Previously</h3>
+      </li>
+    </ul>
 
-  <p>I worked at <a href="https://www.oscaro.com/">Oscaro</a>, <a href="https://www.fluksaqua.com/fr/">Fluksaqua</a>, <a href="https://www.dagobert.com/">Dagobert</a>, <a href="https://www.azendoo.com/fr">Azendoo</a>.<br />
-  Thoses experiences are pretty well detailed in <a href="https://fr.linkedin.com/in/mariealine">my Linkedin profile</a>.</p>
+    <h3>Previously</h3>
+
+    <p>I worked at <a href="https://www.oscaro.com/">Oscaro</a>, <a href="https://www.fluksaqua.com/fr/">Fluksaqua</a>, <a href="https://www.dagobert.com/">Dagobert</a>, <a href="https://www.azendoo.com/fr">Azendoo</a>.<br />
+      Thoses experiences are pretty well detailed in <a href="https://fr.linkedin.com/in/mariealine">my Linkedin profile</a>.</p>
 </section>
