@@ -5,6 +5,10 @@ module.exports = function(config) {
   config.addFilter("timestamp", require("./filters/timestamp.js") );
   config.addFilter("squash", require("./filters/squash.js") );
 
+  config.addCollection('sitemap', collection => {
+  return collection.getFilteredByGlob('**/*.md');
+  });
+
   return {
     dir: {
       input: "src/site",
