@@ -6,7 +6,7 @@
   <p>
     {% for profile in social %}
     {%if profile.toDisplay %}
-    <a href="{{ profile.url }}">{{ profile.label }}</a>
+    <a href="{{ profile.url }}" target="_blank" >{{ profile.label }}</a>
     {% endif %}
     {% if not loop.last %} {% endif %}{% endfor %}
   </p>

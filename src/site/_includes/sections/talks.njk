@@ -17,10 +17,10 @@ to share my knowledge to help others.</p>
       {% for talk in talks %}
         <tr>
           <td>
-            <a href="{{ talk.url }}">{{ talk.name }}</a>
+            <a href="{{ talk.url }}" target="_blank">{{ talk.name }}</a>
           </td>
           <td>
-            <a href="{{ talk.eventURL }}">{{ talk.event }}</a>
+            <a href="{{ talk.eventURL }}" target="_blank">{{ talk.event }}</a>
           </td>
           <td><small>{{ talk.date | dateDisplay }}</small></td>
         </tr>
