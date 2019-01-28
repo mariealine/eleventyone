@@ -1,26 +1,69 @@
 [  
   {
     "label": "Twitter",
+    "toDisplay": "true",
     "url": "https://twitter.com/mariealine_"
+
   },
   {
     "label": "Linkedin",
+    "toDisplay": "true",
     "url": "https://fr.linkedin.com/in/mariealine"
   },
   {
     "label": "Malt",
+    "toDisplay": "true",
     "url": "https://www.malt.fr/profile/mariealinemillot"
   },
   {
     "label": "Behance",
+    "toDisplay": "true",
     "url": "https://www.behance.net/mariealine"
   },
   {
     "label": "Speakerdeck",
+    "toDisplay": "true",
     "url": "https://speakerdeck.com/mariealine"
   },
   {
     "label": "Github",
+    "toDisplay": "true",
     "url": "https://github.com/mariealine"
+  },
+  {
+    "label": "Angel.co",
+    "url": "https://angel.co/mariealine"
+  },
+  {
+    "label": "Crunchbase",
+    "url": "https://www.crunchbase.com/person/marie-aline-millot"
+  },
+  {
+    "label": "Dribbble",
+    "url": "https://dribbble.com/mariealine"
+  },
+  {
+    "label": "Stack Overflow",
+    "url": "https://stackoverflow.com/users/3257092/marie-aline-millot"
+  },
+  {
+    "label": "Slideshare",
+    "url": "https://fr.slideshare.net/mariealine_m"
+  },
+  {
+    "label": "Medium",
+    "url": "https://medium.com/@mariealine"
+  },
+  {
+    "label": "Societe.com",
+    "url": "https://www.societe.com/societe/societe-818219107.html"
+  },
+  {
+    "label": "Youtube",
+    "url": "https://www.youtube.com/user/pacm4b"
+  },
+  {
+    "label": "Product Hunt",
+    "url": "https://www.producthunt.com/@mariealine_m"
   }
 ]

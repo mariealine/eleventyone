@@ -1,14 +1,16 @@
 <footer>
   <p>
     {{ site.title }} <br>
-  </p>
-  <p>
-    {%- for profile in social -%}
-      <a href="{{ profile.url }}">{{ profile.label }}</a>
-    {% if not loop.last %} · {% endif %}{% endfor %}
-  </p>
-
-  <p>
     Siret Number : {{ site.siret }} · Available for freelance missions.
+  </p>
+  <p>
+    {% for profile in social %}
+    {%if profile.toDisplay %}
+    <a href="{{ profile.url }}">{{ profile.label }}</a>
+    {% endif %}
+    {% if not loop.last %} {% endif %}{% endfor %}
+  </p>
+  <p>
+    Coded with <a href="https://github.com/philhawksworth/eleventyone" target="_blank">EleventyOne</a> - Hosted by <a href="https://netlify.com" target="_blank">Netlify</a>
   </p>
 </footer>

@@ -40,14 +40,13 @@
 
 <meta itemprop="name" content="{{ site.author.name }}">
 <meta itemprop="jobTitle" content="{{ site.author.jobTitle }}">
+<meta itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+<meta itemprop="name" content="{{ site.author.jobCompany }}">
 <meta itemprop="url" href="{{ site.author.url }}">
 <meta itemprop="image" content="{{ site.author.url }}images/xxx.jpg">
 
-<meta itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-<meta itemprop="name" content="{{ site.author.jobCompany }}">
-
 {% for item in social %}
-  <meta itemprop="sameAs" href="{{ item.url }}">
+<meta itemprop="sameAs" href="{{ item.url }}">
 {% endfor %}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133299862-1"></script>
