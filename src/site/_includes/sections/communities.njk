@@ -6,19 +6,23 @@
   <p>I love to connect people and share knowledge and experiences. A friend, said one day about me, that I must have been a sheepdog in another life.</p>
 
   {% for community in communities %}
-    <h3>
-      <a href="{{ community.url }}" target="_blank">{{ community.name }}</a>
-    </h3>
-    <ul>
-      <li>Status:
-        {{ community.status }}</li>
-      <li>Created:
-        {{ community.since }}</li>
-      <li>Size: ~{{ community.size }}
-        {{ community.members }}
-        <small>({{ page.date | dateDisplay }})</small>
-      </li>
-    </ul>
+  <h3>
+    <a href="{{ community.url }}" target="_blank">{{ community.name }}</a>
+    <span itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="{{ community.name }}"/>
+      <link itemprop="url" href="{{ community.url }}"/>
+    </span>
+  </h3>
+  <ul>
+    <li>Status:
+    {{ community.status }}</li>
+    <li>Created:
+    {{ community.since }}</li>
+    <li>Size: ~{{ community.size }}
+      {{ community.members }}
+      <small>({{ page.date | dateDisplay }})</small>
+    </li>
+  </ul>
   {% endfor %}
 
 </section>
