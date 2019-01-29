@@ -4,34 +4,70 @@
     "url": "https://medium.com/join-lion/lion-lance-une-formation-pour-devenir-product-owner-b00b71ba5ab5",
     "date": "2019-01-17",
     "event": "Product Track - Lion",
-    "eventURL": "https://joinlion.co/"
+    "eventURL": "https://joinlion.co/",
+    "description":"Lion lance une formation pour devenir Product Owner. Découvre le métier de Product Owner et obtiens les bases pratiques nécessaires pour en faire ton métier 🦁",
+    "location":"Paris, France",
+    "streetAddress":"",
+    "startDate":"",
+    "endDate":"",
+    "image":"",
+    "offers":"",
+    "performer":"SudWeb"
   },
   {
     "name": "Design Systems London - Feedbacks",
     "url": "https://www.youtube.com/watch?v=0gTpSXvdhfw",
     "date": "2018-12-10",
     "event": "Design Systems France",
-    "eventURL": "http://designsystems.fr/"
+    "eventURL": "http://designsystems.fr/",
+    "description":"",
+    "location":"Weekendesk - Paris, France",
+    "startDate":"",
+    "endDate":"",
+    "image":"",
+    "offers":"",
+    "performer":""
   },
   {
     "name": "Abstract : how to challenge our design workflow",
     "url": "https://www.youtube.com/watch?v=SDCzTAJkSNE&t=49s",
     "date": "2018-05-16",
     "event": "Paris Design Meetup",
-    "eventURL": "https://www.meetup.com/fr-FR/Paris-Dribbble-Meetup/"
+    "eventURL": "https://www.meetup.com/fr-FR/Paris-Dribbble-Meetup/",
+    "description":"Paris, France",
+    "location":"",
+    "startDate":"",
+    "endDate":"",
+    "image":"",
+    "offers":"",
+    "performer":""
   },
   {
     "name": "Et toi, c'est quoi tes tips UX ?",
     "url": "https://vimeo.com/136018444",
     "date": "2015-05-29",
     "event": "SudWeb",
-    "eventURL": "https://sudweb.fr/"
+    "eventURL": "https://sudweb.fr/",
+    "description":"La conférence Web surtout Humaine :Deux journées pour faire le plein d'inspiration en mai.",
+    "location":"",
+    "startDate":"",
+    "endDate":"",
+    "image":"",
+    "offers":"",
+    "performer":""
   },
   {
     "name": "Onboarding : Refonte & Optimisation",
     "url": "https://speakerdeck.com/dbtalks/onboarding-refonte-and-optimisation-pour-azendoo?slide=30",
     "date": "2014-10-27",
     "event": "Design & Beers Talks",
-    "eventURL": "http://dbtalks.org/"
+    "eventURL": "http://dbtalks.org/",
+    "description":"Bordeaux, France",
+    "location":"",
+    "startDate":"",
+    "endDate":"",
+    "image":"",
+    "offers":"",
+    "performer":""
   }
 ]

@@ -20,6 +20,9 @@
       <h1>{{ site.author.name }}
         <span itemscope itemtype="http://schema.org/Person">
           <meta itemprop="name" content="{{site.author.name}}"/>
+          <meta itemprop="description" content="{{site.description}}"/>
+          <meta itemprop="familyName" content="{{site.author.lastName}}"/>
+          <meta itemprop="funder" content="Design Systems France"/>
           <link itemprop="url" href="{{site.author.url}}"/>
           <img itemprop="image" src=""/>
           <meta itemprop="jobTitle" content="{{site.author.jobTitle}}"/>
@@ -29,6 +32,10 @@
           <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
             <meta itemprop="name" content="Weekendesk"/>
             <link itemprop="url" href="https://weekendesk.com"/>
+          </span>
+          <span itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <meta itemprop="name" content="Design Systems France"/>
+            <link itemprop="url" href="https://designsystems.fr"/>
           </span>
           
         </span></h1>

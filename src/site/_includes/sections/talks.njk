@@ -1,9 +1,9 @@
 <section>
   <a id="talks" class="anchor"><h2>Talks</h2></a>
 
-<p>I met awesome people in conferences who shared their knowledge and made me
-discover intersting topics that help to improve myself. Now, it feels natural
-to share my knowledge to help others.</p>
+  <p>I met awesome people in conferences who shared their knowledge and made me
+    discover intersting topics that help to improve myself. Now, it feels natural
+  to share my knowledge to help others.</p>
 
   <table>
     <thead>
@@ -15,17 +15,23 @@ to share my knowledge to help others.</p>
     </thead>
     <tbody>
       {% for talk in talks %}
-        <tr>
-          <td>
-            <a href="{{ talk.url }}" target="_blank">{{ talk.name }}</a>
-          </td>
-          <td>
-            <a href="{{ talk.eventURL }}" target="_blank">{{ talk.event }}</a>
-          </td>
-          <td><small>{{ talk.date | dateDisplay }}</small></td>
-        </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+      <tr>
+        <td>
+          <a href="{{ talk.url }}" target="_blank">{{ talk.name }}</a>
+        </td>
+        <td>
+          <a itemscope itemtype="http://schema.org/Event" href="{{ talk.eventURL }}" target="_blank"><span itemprop="name">{{ talk.event }}
+            <meta itemprop="description" content="{{ talk.description }}"/>
+            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+              <meta itemprop="name" href="France">
+            </span>
+          </span>
+        </a>
+      </td>
+      <td><small>{{ talk.date | dateDisplay }}</small></td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
 
 </section>
