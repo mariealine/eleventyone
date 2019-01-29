@@ -7,7 +7,13 @@
     <li>
       <h3>
         {% if project.url %}
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+        <a href="{{ project.url }}" target="_blank">{{ project.name }}
+        <span itemscope itemtype="http://schema.org/Organization">
+          <meta itemprop="name" content="{{ project.name }}"/>
+          <link itemprop="url" href="{{ project.url }}"/>
+        </span>
+
+        </a>
         {% else %}
         {{ project.name }}
         {% endif %}
