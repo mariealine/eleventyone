@@ -6,9 +6,15 @@
   <p>
     {% for profile in social %}
     {%if profile.toDisplay %}
-    <a href="{{ profile.url }}" target="_blank" >{{ profile.label }}</a>
-    {% endif %}
-    {% if not loop.last %} {% endif %}{% endfor %}
+    <span itemscope itemtype="https://schema.org/Person">
+      <meta itemprop="name" content="{{site.author.name}}"/>
+      <meta itemprop="description" content="{{site.description}}"/>
+      <meta itemprop="familyName" content="{{site.author.lastName}}"/>
+      <link itemprop="url" href="{{site.author.url}}"/>
+      <a href="{{ profile.url }}" target="_blank" itemprop="sameAs" >{{ profile.label }}</a>
+      {% endif %}
+      {% if not loop.last %} {% endif %}{% endfor %}
+    </span>
   </p>
   <p>
     Coded with <a href="https://github.com/philhawksworth/eleventyone" target="_blank">EleventyOne</a> - Hosted by <a href="https://netlify.com" target="_blank">Netlify</a>
