@@ -7,11 +7,15 @@
 
   {% for community in communities %}
   <h3>
-    <a href="{{ community.url }}" target="_blank">{{ community.name }}</a>
-    <span itemscope itemtype="http://schema.org/Organization">
+    <a itemscope itemtype="http://schema.org/WebSite" href="{{ community.url }}" target="_blank">{{ community.name }}
       <meta itemprop="name" content="{{ community.name }}"/>
-      <link itemprop="url" href="{{ community.url }}"/>
-    </span>
+      <meta itemprop="url" content="{{ community.url }}"/>
+      <span itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{ community.name }}"/>
+        <link itemprop="url" href="{{ community.url }}"/>
+        <link itemprop="sameAs" href="{{ community.sameAs }}">
+      </span>
+    </a>
   </h3>
   <ul>
     <li>Status:

@@ -2,6 +2,7 @@
   {
     "name": "Design Systems France",
     "url": "https://designsystems.fr/",
+    "sameAs":"https://meetup.com/fr-FR/Design-Systems-France/",
     "since": "February 2018",
     "status": "Active",
     "size": 300,
@@ -11,6 +12,7 @@
   {
     "name": "Jeanne Machines & Friends",
     "url": "https://www.facebook.com/groups/675827186111545/",
+    "sameAs":"https://www.instagram.com/jeannemachines/",
     "since": "June 2018",
     "status": "Active",
     "size": 70,
@@ -18,8 +20,9 @@
     "role": "Co-creator,Organizer"
   },
   {
-    "name": "Lesbians Who Tech | Paris",
+    "name": "Lesbians Who Tech Paris",
     "url": "https://www.facebook.com/LWhoTechParis/",
+    "sameAs":"https://www.eventbrite.fr/o/lesbians-who-tech-alliees-paris-18145030286",
     "since": "October 2015",
     "status": "Active",
     "size": 270,
@@ -29,6 +32,7 @@
   {
     "name": "Design & Beers Talks",
     "url": "http://dbtalks.org/",
+    "sameAs":"https://twitter.com/dbtalks_org",
     "since": "April 2015",
     "status": "Closed",
     "size": "",
