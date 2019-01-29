@@ -20,18 +20,31 @@
           <a href="{{ talk.url }}" target="_blank">{{ talk.name }}</a>
         </td>
         <td>
-          <a itemscope itemtype="http://schema.org/Event" href="{{ talk.eventURL }}" target="_blank"><span itemprop="name">{{ talk.event }}
-            <meta itemprop="description" content="{{ talk.description }}"/>
-            <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-              <meta itemprop="name" href="France">
+          <a itemscope itemtype="http://schema.org/Event" href="{{ talk.eventURL }}" target="_blank">
+            <span itemprop="name">{{ talk.event }}
+              <meta itemprop="description" content="{{ talk.description }}">
+              <meta itemprop="startDate" content="{{ talk.startDate }}">
+              <meta itemprop="endDate" content="{{ talk.endDate }}">
+              <span itemscope itemprop="performer" itemtype="http://schema.org/Person">
+                <meta itemprop="name" content="{{ site.author.name }}">
+              </span>
+              <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+                <meta itemprop="name" content="{{ talk.location.name }}">
+                <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <meta itemprop="streetAddress" content="{{ talk.location.address.streetAddress }}">
+                  <meta itemprop="addressLocality" content="{{ talk.location.address.streetLocality }}">
+                  <meta itemprop="postalCode" content="{{ talk.location.address.postalCode }}">
+                  <meta itemprop="addressRegion" content="{{ talk.location.address.addressRegion }}">
+                  <meta itemprop="addressCountry" content="{{ talk.location.address.addressCountry }}">
+                </span>
+              </span>
             </span>
-          </span>
-        </a>
-      </td>
-      <td><small>{{ talk.date | dateDisplay }}</small></td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+          </a>
+        </td>
+        <td><small>{{ talk.date | dateDisplay }}</small></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
 
 </section>

@@ -7,7 +7,10 @@
     <li>
       <h3>
         {% if project.url %}
-        <a href="{{ project.url }}" target="_blank">{{ project.name }}
+        <a itemscope itemtype="http://schema.org/WebSite" href="{{ project.url }}" target="_blank">{{ project.name }}
+        <meta itemprop="name" content="{{ project.name }}">
+        <meta itemprop="url" content="{{ project.url }}">
+      </a>,
         <span itemscope itemtype="http://schema.org/Organization">
           <meta itemprop="name" content="{{ project.name }}"/>
           <link itemprop="url" href="{{ project.url }}"/>
@@ -36,6 +39,26 @@
 
     <h3>Previously</h3>
 
-    <p>I worked at <a href="https://www.oscaro.com/" target="_blank">Oscaro</a>, <a href="https://www.fluksaqua.com/fr/" target="_blank">Fluksaqua</a>, <a href="https://www.dagobert.com/" target="_blank">Dagobert</a>, <a href="https://www.azendoo.com/fr" target="_blank">Azendoo</a>.<br />
+    <p>I worked at 
+      <a itemscope itemtype="http://schema.org/WebSite" href="https://www.oscaro.com/" target="_blank">
+        <meta itemprop="name" content="Oscaro.com"/>
+        <meta itemprop="url" content="https://oscaro.com"/>
+        Oscaro
+      </a>,
+      <a itemscope itemtype="http://schema.org/WebSite" href="https://www.fluksaqua.com/fr/" target="_blank">
+        <meta itemprop="name" content="Fluksaqua"/>
+        <meta itemprop="url" content="https://www.fluksaqua.com/fr/"/>
+        Fluksaqua
+      </a>,
+      <a itemscope itemtype="http://schema.org/WebSite" href="https://www.dagobert.com/" target="_blank">
+        <meta itemprop="name" content="Dagobert"/>
+        <meta itemprop="url" content="https://www.dagobert.com/"/>
+        Dagobert
+      </a>,
+      <a itemscope itemtype="http://schema.org/WebSite"href="https://www.azendoo.com/fr" target="_blank">
+        <meta itemprop="name" content="Azendoo"/>
+        <meta itemprop="url" content="https://www.azendoo.com/fr"/>
+        Azendoo
+      </a>.<br />
       Thoses experiences are pretty well detailed in <a href="https://fr.linkedin.com/in/mariealine" target="_blank">my Linkedin profile</a>.</p>
     </section>

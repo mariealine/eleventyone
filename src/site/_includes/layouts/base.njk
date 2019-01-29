@@ -22,10 +22,11 @@
           <meta itemprop="name" content="{{site.author.name}}"/>
           <meta itemprop="description" content="{{site.description}}"/>
           <meta itemprop="familyName" content="{{site.author.lastName}}"/>
-          <meta itemprop="funder" content="Design Systems France"/>
           <link itemprop="url" href="{{site.author.url}}"/>
-          <img itemprop="image" src=""/>
+          <img itemprop="image" content="https://pbs.twimg.com/profile_images/662218985342181376/ACQXH9rf_400x400.jpg">
           <meta itemprop="jobTitle" content="{{site.author.jobTitle}}"/>
+          <meta itemprop="knowsAbout" content="{{site.author.knowsAbout}}"/>
+          <meta itemprop="funder" content="Design Systems France"/>
           {% for item in social %}
           <meta itemprop="sameAs" href="{{ item.url }}">
           {% endfor %}
@@ -37,7 +38,6 @@
             <meta itemprop="name" content="Design Systems France"/>
             <link itemprop="url" href="https://designsystems.fr"/>
           </span>
-          
         </span></h1>
         {%- if subtitle %}<p class="subtitle">{{ site.description }}</p>{% endif %}
       </header>
